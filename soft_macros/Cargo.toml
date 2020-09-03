@@ -1,0 +1,18 @@
+[package]
+name = "soft_macros"
+version = "0.1.0"
+authors = ["Christofer Nolander <christofer.nolander@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.7"
+proc-macro2 = "1.0.19"
+
+[dependencies.syn]
+version = "1.0.38"
+default-features = false
+features = ["parsing", "proc-macro", "derive", "printing"]
+

@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "soft",
+    "soft_macros",
+]
+
+[profile.release]
+debug = true
