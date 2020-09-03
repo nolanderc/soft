@@ -1,7 +1,7 @@
 
 # *Soft*ware Triangle Renderer
 
-This is a toy library written in a weekend that implements a triangle renderer
+This is a toy library, that was written in a weekend, which implements triangle renderer
 (such as one you would normally find inside a GPU) that runs on the CPU. The
 library exposes an API that allows the user to render a triangulated model, and
 exposes control over the vertex and fragment (pixel) stages of the render
